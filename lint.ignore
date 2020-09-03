@@ -819,3 +819,6 @@ DUPLICATE-BASENAME-PATH: svg/struct/reftests/reference/green-100x100.html
 DUPLICATE-BASENAME-PATH: svg/struct/reftests/reference/green-100x100.svg
 
 SET TIMEOUT: mediacapture-insertable-streams/MediaStreamTrackProcessor-video.https.html
+
+# Python 3-only files are not parsable as Python 2
+PARSE-FAILED: html/syntax/speculative-parsing/tools/generate.py
